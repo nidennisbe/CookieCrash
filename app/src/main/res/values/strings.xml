@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="first_human">You go first and You are COOKIE.</string>
+    <string name="turn_human">Your turn</string>
+    <string name="turn_computer">CUP\'s turn.</string>
+    <string name="turn_player_one">Player One\'s Turn.</string>
+    <string name="turn_player_two">Player Two\'s Turn.</string>
+    <string name="result_tie">Tie!</string>
+    <string name="result_human_wins">You Won!</string>
+    <string name="result_android_wins">CUP Won!</string>
+    <string name="result_player_one_wins">Player One Wins!</string>
+    <string name="result_player_two_wins">Player Two Wins!</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="info">Info</string>
+    <string name="human">Human:  </string>
+    <string name="player_one">Player 1:  </string>
+    <string name="ties">Ties:  </string>
+    <string name="android">CUP:  </string>
+    <string name="player_two">Player 2:  </string>
+    <string name="ur_score">You Are:</string>
+
+
+</resources>

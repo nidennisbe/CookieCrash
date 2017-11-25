@@ -1,0 +1,202 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#d08a61"
+     >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/c1"
+            android:layout_column="2"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/c2"
+            android:layout_column="5"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/c3"
+            android:layout_column="10"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/c4"
+            android:layout_column="2"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/c5"
+            android:layout_column="5"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/c6"
+            android:layout_column="10"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/c7"
+            android:layout_column="2"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/c8"
+            android:layout_column="5"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/c9"
+            android:layout_column="10"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgb">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/info"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:onClick="resetOnClick"
+            android:id="@+id/reset"
+            android:layout_gravity="center_horizontal"
+            android:background="#b88637"
+            android:textColor="#fff8fc"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tie:"
+            android:id="@+id/textView2"
+            android:textSize="25dp"
+            android:textColor="#713121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tie:"
+            android:id="@+id/txtviewtie"
+            android:textSize="25dp"
+            android:textColor="#713121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1"
+            android:textSize="25dp"
+            android:textColor="#713121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player1:"
+            android:id="@+id/txtviewp1"
+            android:textSize="25dp"
+            android:textColor="#713121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CUP"
+            android:id="@+id/p2"
+            android:textSize="25dp"
+            android:textColor="#713121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player2:"
+            android:id="@+id/txtviewp2"
+            android:textSize="25dp"
+            android:textColor="#713121" />
+
+    </LinearLayout>
+
+</TableLayout>
